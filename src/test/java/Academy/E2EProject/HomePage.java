@@ -16,7 +16,10 @@ public class HomePage extends Base{
 	@BeforeTest
 	public void initialize() throws IOException {
 		driver = initializeBrowser();
-		log.info("Browser launched Successfully");
+		log.info("Browser launched Successfully 1 ");
+		System.out.println("Browser launched Successfully 2 ");
+		System.out.println("Browser launched Successfully 3 ");
+		System.out.println("Browser launched Successfully 4 ");
 	}
 	
 	@Test(dataProvider="getData")
