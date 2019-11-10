@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Academy.E2EProject.listeners"/>
+<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+
+  <test name="AppTest">
+    <classes>
+      <class name="Academy.E2EProject.AppTest"/>
+      </classes>
+      </test>
+      <test name = "Homepage">
+      <classes>
+      <class name="Academy.E2EProject.HomePage"/>
+      </classes>
+      </test>
+      <test name = "TitleValidation>">
+      <classes>
+      <class name="Academy.E2EProject.Titlevalidation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
