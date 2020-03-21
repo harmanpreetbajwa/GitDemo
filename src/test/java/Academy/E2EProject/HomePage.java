@@ -20,6 +20,9 @@ public class HomePage extends Base{
 		System.out.println("Browser launched Successfully 2 ");
 		System.out.println("Browser launched Successfully 3 ");
 		System.out.println("Browser launched Successfully 4 ");
+		System.out.println("Browser launched Successfully 5 ");
+		System.out.println("Browser launched Successfully 6 ");
+		
 	}
 	
 	@Test(dataProvider="getData")
@@ -31,7 +34,7 @@ public class HomePage extends Base{
 		sp.Email().sendKeys(username);
 		sp.Password().sendKeys(password);
 		sp.LoginButton().click();
-		log.debug("successfully entered username and password ");
+		log.debug("successfully entered username and password tn tna tn");
 	}
 	
 	@DataProvider
