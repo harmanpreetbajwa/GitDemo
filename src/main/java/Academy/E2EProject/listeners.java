@@ -30,12 +30,6 @@ public class listeners implements ITestListener{
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
-		try {
-			b.Screenshot(result.getName());
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		
 	}
 

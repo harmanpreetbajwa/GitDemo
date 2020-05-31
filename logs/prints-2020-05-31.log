@@ -1,0 +1,6 @@
+14:16:07.866 [main] INFO  Academy.E2EProject.Base - Navigated to url
+14:18:47.143 [main] INFO  Academy.E2EProject.Base - Browser launched Successfully 1 
+14:18:56.889 [main] DEBUG Academy.E2EProject.Base - successfully entered username and password tn tna tn
+14:19:03.270 [main] DEBUG Academy.E2EProject.Base - successfully entered username and password tn tna tn
+14:19:06.090 [main] INFO  Academy.E2EProject.Base - driver is initialized
+14:19:09.808 [main] INFO  Academy.E2EProject.Base - Navigated to url

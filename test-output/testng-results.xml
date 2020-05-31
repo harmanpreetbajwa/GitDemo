@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21853" started-at="2019-11-01T01:22:47Z" finished-at="2019-11-01T01:23:09Z">
+  <suite name="Suite" duration-ms="26984" started-at="2020-05-31T18:20:48Z" finished-at="2020-05-31T18:21:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21853" started-at="2019-11-01T01:22:47Z" finished-at="2019-11-01T01:23:09Z">
+    <test name="AppTest" duration-ms="9" started-at="2020-05-31T18:20:48Z" finished-at="2020-05-31T18:20:48Z">
+    </test> <!-- AppTest -->
+    <test name="Homepage" duration-ms="20745" started-at="2020-05-31T18:20:48Z" finished-at="2020-05-31T18:21:08Z">
       <class name="Academy.E2EProject.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.HomePage@78b66d36]" name="initialize" is-config="true" duration-ms="3429" started-at="2019-10-31T21:22:47Z" finished-at="2019-10-31T21:22:51Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.HomePage@6440112d]" name="initialize" is-config="true" duration-ms="3574" started-at="2020-05-31T14:20:48Z" finished-at="2020-05-31T14:20:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@78b66d36]" name="baseNavigation" duration-ms="13197" started-at="2019-10-31T21:22:51Z" data-provider="getData" finished-at="2019-10-31T21:23:04Z">
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@6440112d]" name="baseNavigation" duration-ms="9910" started-at="2020-05-31T14:20:51Z" data-provider="getData" finished-at="2020-05-31T14:21:01Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseNavigation -->
-        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@78b66d36]" name="baseNavigation" duration-ms="5115" started-at="2019-10-31T21:23:04Z" data-provider="getData" finished-at="2019-10-31T21:23:09Z">
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@6440112d]" name="baseNavigation" duration-ms="7123" started-at="2020-05-31T14:21:01Z" data-provider="getData" finished-at="2020-05-31T14:21:08Z">
           <params>
             <param index="0">
               <value>
@@ -43,11 +45,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseNavigation -->
-        <test-method status="PASS" signature="ClosingDriver()[pri:0, instance:Academy.E2EProject.HomePage@78b66d36]" name="ClosingDriver" is-config="true" duration-ms="107" started-at="2019-10-31T21:23:09Z" finished-at="2019-10-31T21:23:09Z">
+        <test-method status="PASS" signature="ClosingDriver()[pri:0, instance:Academy.E2EProject.HomePage@6440112d]" name="ClosingDriver" is-config="true" duration-ms="120" started-at="2020-05-31T14:21:08Z" finished-at="2020-05-31T14:21:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosingDriver -->
       </class> <!-- Academy.E2EProject.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Homepage -->
+    <test name="TitleValidation&gt;" duration-ms="6208" started-at="2020-05-31T18:21:08Z" finished-at="2020-05-31T18:21:15Z">
+      <class name="Academy.E2EProject.Titlevalidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.E2EProject.Titlevalidation@4d1c005e]" name="initialize" is-config="true" duration-ms="5962" started-at="2020-05-31T14:21:08Z" finished-at="2020-05-31T14:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="baseNavigation()[pri:0, instance:Academy.E2EProject.Titlevalidation@4d1c005e]" name="baseNavigation" duration-ms="102" started-at="2020-05-31T14:21:14Z" finished-at="2020-05-31T14:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="baseNavigationLink()[pri:0, instance:Academy.E2EProject.Titlevalidation@4d1c005e]" name="baseNavigationLink" duration-ms="83" started-at="2020-05-31T14:21:14Z" finished-at="2020-05-31T14:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationLink -->
+        <test-method status="PASS" signature="ClosingDriver()[pri:0, instance:Academy.E2EProject.Titlevalidation@4d1c005e]" name="ClosingDriver" is-config="true" duration-ms="54" started-at="2020-05-31T14:21:15Z" finished-at="2020-05-31T14:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingDriver -->
+      </class> <!-- Academy.E2EProject.Titlevalidation -->
+    </test> <!-- TitleValidation> -->
+  </suite> <!-- Suite -->
 </testng-results>

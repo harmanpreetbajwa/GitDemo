@@ -20,21 +20,4 @@
       <class name="Academy.E2EProject.Titlevalidation"/>
     </classes>
   </test> <!-- TitleValidation> -->
-  <test name="TitleValidation&gt;(failed)">
-    <classes>
-      <class name="Academy.E2EProject.HomePage">
-        <methods>
-          <include name="ClosingDriver"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Academy.E2EProject.HomePage -->
-      <class name="Academy.E2EProject.Titlevalidation">
-        <methods>
-          <include name="ClosingDriver"/>
-          <include name="baseNavigation"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Academy.E2EProject.Titlevalidation -->
-    </classes>
-  </test> <!-- TitleValidation>(failed) -->
 </suite> <!-- Failed suite [Suite] -->

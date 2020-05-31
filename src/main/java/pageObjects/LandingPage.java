@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LandingPage {
-public WebDriver driver;
+public  WebDriver driver;
 
 public LandingPage(WebDriver driver){
 	this.driver=driver;
@@ -20,11 +20,8 @@ public WebElement LoginLink() {
 	
 }
 
-
-
 public WebElement getTitle() {
-	return driver.findElement(Title);
-	
+	return driver.findElement(Title);	
 }
 
 public WebElement Navigationlinks() {
