@@ -14,7 +14,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class Base {
@@ -29,15 +32,29 @@ public class Base {
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		
-		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Harmanpreet Singh\\Desktop\\SELENIUM WorkSPace\\chromedriver.exe");
-			 driver = new ChromeDriver();
-		
-		}
-		else if(browserName.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\Harmanpreet Singh\\Desktop\\SELENIUM WorkSPace\\geckodriver.exe");
-			 driver = new FirefoxDriver();	
-		}
+
+if(browserName.contains("chrome"))
+{
+	WebDriverManager.chromedriver().setup();
+	 ChromeOptions options =new ChromeOptions();
+	 if(browserName.contains("headless"))
+	 {
+	  options.addArguments("headless");
+	 }
+driver= new ChromeDriver(options);
+	
+}
+else if (browserName.equals("firefox"))
+{
+	
+	 driver= new FirefoxDriver();
+
+}
+else if (browserName.equals("IE"))
+{
+
+}
+
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		return driver;

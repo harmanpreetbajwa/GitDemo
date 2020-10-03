@@ -1,4 +1,2 @@
-22:54:10.374 [main] DEBUG Academy.E2EProject.Base - successfully entered username and password 
-22:54:15.002 [main] DEBUG Academy.E2EProject.Base - successfully entered username and password 
-22:54:17.317 [main] INFO  Academy.E2EProject.Base - driver is initialized
-22:54:26.645 [main] INFO  Academy.E2EProject.Base - Navigated to url
+13:13:20.667 [main] INFO  Academy.E2EProject.Base - driver is initialized
+13:13:22.230 [main] INFO  Academy.E2EProject.Base - Navigated to url
