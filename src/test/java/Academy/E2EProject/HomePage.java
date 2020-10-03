@@ -21,6 +21,7 @@ public class HomePage extends Base{
 		System.out.println("Browser launched Successfully 3 ");
 		System.out.println("Browser launched Successfully 4 ");
 		System.out.println("Browser launched Successfully 5 ");
+		System.out.println("Browser launched Successfully 6 ");
 	
 		
 	}
